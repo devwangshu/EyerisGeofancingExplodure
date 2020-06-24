@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/cimfrlogo" />
+
+        <!-- Name Label -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_capture_eyeris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:text="Capture Eyeris Data | Register" />
+
+        <!-- Address Label -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_pair_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:text="Pair a bluetooth device" />
+
+
+
+        <!--  Email Label -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_capture_geofancing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:text="Capture Geofancing" />
+
+
+        <!-- mobile number -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_send_geofancing_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:text="Send Geofancing Approval" />
+
+        <!-- Password Label -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_match_geofancing_approval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:text="Match Geofancing Approval" />
+
+        <!-- Password Re-enter Label -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_verify_and_send_blutooth_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F44336"
+            android:text="Verify all and Explode/BT" />
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_show_geofancing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="#8BC34A"
+            android:padding="12dp"
+            android:text="Show Geofancing Map" />
+
+        <TextView
+            android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="27dp"
+            android:gravity="center"
+            android:text="cimfr.nic.in"
+            android:textSize="16dip" />
+
+    </LinearLayout>
+</ScrollView>
